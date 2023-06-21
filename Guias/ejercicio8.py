@@ -16,7 +16,7 @@ estaciones = {
     "noviembre" : "primavera", 
     "diciembre" : "verano"
 }
-if mes in estaciones:
+if mes and estaciones:
     estacion = estaciones[mes]
     print(f"la estacion correspondiente al mes de {mes} es {estacion}")
     print("")

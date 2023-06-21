@@ -16,8 +16,5 @@ print(grupo2)
 
 estcomun= grupo1.intersection(grupo2)
 if len(estcomun)>0:
-    print("los estudiantes que se repiten son")
-    for estudiantes in estcomun:
-        print(estudiantes)
-    else:
-        print("no hay  mas estudiantes en comun en los grupos")
+    print("los estudiantes que se repiten son: ", estcomun)
+
